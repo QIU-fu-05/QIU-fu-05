@@ -1,1 +1,7 @@
-
+//加一个static能够让count在main中两次new中同时被使用
+    //达到我们new一个对象同时记录一个数的目的
+    public static int count = 0;
+    public Test2(){
+        count++;
+    }
+//static 修饰的变量能够在同一个类中被多次不同的对象调用
